@@ -1,6 +1,6 @@
 # 🐟 Salmon YOLO Pipeline
 
-A consolidated end-to-end pipeline for **underwater salmon detection** using YOLO. The pipeline covers the full lifecycle—from raw underwater image enhancement through model training, inference, and post-processing crop extraction—in a single command-line tool.
+An end-to-end pipeline for **underwater salmon detection** using YOLO. The pipeline covers the full lifecycle—from raw underwater image enhancement through model training, inference, and post-processing crop extraction—in a single command-line tool.
 
 ---
 

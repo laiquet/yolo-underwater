@@ -735,7 +735,7 @@ def add_preprocess_args(parser: argparse.ArgumentParser) -> None:
 
 def add_train_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--model", default="yolo26x.pt")
-    parser.add_argument("--data", type=Path, default=DEFAULT_DATASET_ROOT / "data.yaml")
+    parser.add_argument("--data", type=Path, default=DEFAULT_DATASET_ROOT / "data_enhanced.yaml")
     parser.add_argument("--epochs", type=int, default=250)
     parser.add_argument("--imgsz", nargs=2, type=int, default=[960, 540], metavar=("WIDTH", "HEIGHT"))
     parser.add_argument("--device", default="0")

@@ -239,7 +239,7 @@ python salmon_yolo_pipeline.py infer
 # Custom inference
 python salmon_yolo_pipeline.py infer \
     --weights runs/detect/train/weights/best.pt \
-    --source path/to/test/images \
+    --source path/to/test/images_enhanced \
     --conf 0.25
 ```
 
@@ -263,7 +263,7 @@ python salmon_yolo_pipeline.py crop
 # Custom paths
 python salmon_yolo_pipeline.py crop \
     --labels-dir runs/detect/predict/labels \
-    --images-dir path/to/test/images \
+    --images-dir path/to/test/images_enhanced \
     --output-dir my_crops
 ```
 

@@ -1,22 +1,3 @@
-"""
-Consolidated Salmon YOLO pipeline.
-
-Combines:
-  1. Underwater image preprocessing / enhancement
-  2. YOLO training
-  3. YOLO inference
-  4. YOLO-label post-processing / ROI crop extraction
-
-Example usage:
-  python salmon_yolo_pipeline.py preprocess
-  python salmon_yolo_pipeline.py train
-  python salmon_yolo_pipeline.py infer
-  python salmon_yolo_pipeline.py crop
-  python salmon_yolo_pipeline.py all
-
-Default paths match the original scripts/notebooks.
-"""
-
 from __future__ import annotations
 
 import argparse

@@ -206,7 +206,7 @@ python salmon_yolo_pipeline.py train
 # Custom training
 python salmon_yolo_pipeline.py train \
     --model yolo26x.pt \
-    --data path/to/data.yaml \
+    --data path/to/data_enhanced.yaml \
     --epochs 100 \
     --batch 8 \
     --imgsz 960 540 \
@@ -238,7 +238,7 @@ python salmon_yolo_pipeline.py infer
 
 # Custom inference
 python salmon_yolo_pipeline.py infer \
-    --weights runs/detect/train-1/weights/best.pt \
+    --weights runs/detect/train/weights/best.pt \
     --source path/to/test/images \
     --conf 0.25
 ```
